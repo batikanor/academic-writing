@@ -1,0 +1,13 @@
+\contentsline {chapter}{Contents}{i}{dummy.1}
+\contentsline {chapter}{List of Figures}{ii}{dummy.3}
+\contentsline {chapter}{List of Tables}{iii}{dummy.5}
+\contentsline {chapter}{\numberline {1}Univariate Analysis}{1}{chapter.7}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.8}
+\contentsline {chapter}{\numberline {2}Interesting Topic}{3}{chapter.9}
+\contentsline {chapter}{\numberline {3}Ensemble Methods}{5}{chapter.10}
+\contentsline {chapter}{\numberline {4}Comparison between models}{7}{chapter.11}
+\contentsline {chapter}{\numberline {5}Imaginative Contribution}{9}{chapter.12}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Included Code}{11}{appendix.13}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{12}{dummy.14}

@@ -1,0 +1,156 @@
+\documentclass[a4paper, twocolumn]{article}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage[algo2e]{algorithm2e}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+
+\title{Mathematics and Algorithms}
+\author{Gary}
+
+\begin{document}
+\maketitle	
+
+\begin{abstract}
+	\lipsum[1]
+\end{abstract}
+
+\tableofcontents
+
+\section{Mathematics}
+This is an equations that is in a line $x_1 = y^2$
+
+In Equation \ref{eq:binom} we see the binomial formula.  
+
+\begin{equation}
+\label{eq:binom}
+\sum^{n}_{i=0}
+\binom{n}{i}a^{i}b^{n-i}
+= (a+b)^{n}
+\end{equation}
+
+\subsection{Fractions}
+
+\begin{equation}
+\frac{a + b}{c}
+\end{equation}
+
+\begin{equation}
+\sqrt{2} - 1
+= \cfrac{1}{2 +
+	\cfrac{1}{2 +
+		\dotsb}}\,.
+\end{equation}
+
+\subsection{Align Environment}
+
+\begin{align}
+z &= a + b + c \\
+&= \sum_{min}^{max} x^2 \\
+\nonumber
+    &= f + r
+\end{align}
+
+\subsection{Integration and Differentiation}
+\[ \int^{b}_{a}
+3 x^{2}\,d x
+= \left. x^{3}
+\right\rvert^{b}_{a}
+= b^{3} - a^{3}\,. \]
+
+
+Let $z = x^{2} + xy$, then
+\[ \frac{\partial z}
+{\partial x}
+= 2x + y\,. \]
+
+\subsection{Braces}
+\[ x^{k} =
+\underbrace
+{1 \times x
+	\times x \times
+	\dotsb \times x}
+_{\text{$k$˜times
+		$\times x$}} \,. \]
+
+\subsection{Conditionals}
+\[ n! = 
+\begin{cases} 1  & \text{if $n = 0$}\,; \\
+(n-1) ! \times n & \text{if $n > 0$}\,.
+\end{cases} \]
+
+\section{Algorithms}
+
+\subsection{algorithm2e}
+\lipsum[1]
+
+\begin{algorithm2e}[tbp]
+	\Switch{order}{
+		\uCase{bloody mary}{
+			Add tomato juice\;
+			Add vodka\;
+			\If{vodka $\le$ 2l}{buy more} 
+			break\;
+		}
+		\uCase{hot whiskey}{
+			Add whiskey\;
+			Add hot water\;
+			Add lemon and cloves\;
+			Add sugar or honey to taste\;
+			break\;
+		}
+		\Other{Serve water\;}
+	}
+\end{algorithm2e}
+
+\lipsum[1-2]
+
+\subsection{algorithmic}
+\begin{algorithm}
+	\begin{algorithmic}[1]
+		\REQUIRE{Input}
+		\ENSURE{Output} 
+		\IF{some condition is true}\label{line:if}
+		\STATE do some processing
+		\ELSIF{some other condition is true}
+		\STATE do some different processing
+		\ELSE 
+		\STATE do the default actions \label{line:default}
+		\ENDIF
+	\end{algorithmic}
+	\caption{My Algorithm}
+	\label{algo:mine}
+\end{algorithm}
+
+As seen in Algorithm \ref{algo:mine}. In Line \ref{line:if} we can see the if statement. In Line \ref{line:default} we present the default statements. 
+
+
+\subsection{listings}
+\lstset{language=c++}
+\lstset{caption=Some C++ Code}
+\begin{lstlisting}[frame=single]{}
+for(i = 0; i < 10; i++){
+// increment the pointer
+*p++ = i;
+}
+\end{lstlisting}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

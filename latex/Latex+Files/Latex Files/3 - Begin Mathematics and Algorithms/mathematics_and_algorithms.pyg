@@ -1,0 +1,4 @@
+	template <typename T>
+	T id(T value) {
+		return value;
+	}

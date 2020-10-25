@@ -1,0 +1,6 @@
+\frametitle{Visual Alerts}
+\begin{itemize}
+	\item<alert@1> First.
+	\item<alert@2> Second.
+	\item<alert@3> Third.
+\end{itemize}

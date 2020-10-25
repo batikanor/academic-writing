@@ -1,0 +1,25 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Leinweber(1988)]{10.1109/64.21887}
+David Leinweber.
+\newblock Knowledge-based systems for financial applications.
+\newblock \emph{IEEE Intelligent Systems}, 3\penalty0 (3):\penalty0 18--31,
+  1988.
+\newblock ISSN 0885-9000.
+\newblock URL \url{http://www.it.iitb.ac.in/~palwencha/ES/J_Papers/ES3.pdf}.
+
+\bibitem[Frankel(2014)]{frankel2014effects}
+Jeffrey~A Frankel.
+\newblock Effects of speculation and interest rates in a “carry trade”
+  model of commodity prices.
+\newblock \emph{Journal of International Money and Finance}, 42:\penalty0
+  88--112, 2014.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0261560613001083}.
+
+\end{thebibliography}
